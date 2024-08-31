@@ -1,0 +1,28 @@
+
+.products {
+    background: linear-gradient(180deg, #0c0c1d, #111132);
+    height: 100dvh;
+    display: flex;
+    flex-direction: column;
+    // justify-content: space-between;
+
+    .product-cards {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-self: center;
+        margin-top: auto;
+        margin-bottom: auto;
+
+        .product-card {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+            width: 500px;
+            margin-bottom: 50px;
+            cursor: pointer;
+        }
+    }
+}
